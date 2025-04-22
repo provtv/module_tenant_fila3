@@ -303,7 +303,14 @@ class TenantService
      *                              // }
      *                              $with = $panel->with();
      *                              // $model = $model->load($with);
+<<<<<<< HEAD
      *                              $with = $panel->with;
+=======
+<<<<<<< HEAD
+     *                              $with = $panel->with;
+=======
+>>>>>>> 9f73f2a (.)
+>>>>>>> de24ed2 (fix: auto resolve conflict)
      *                              $model = $model->with($with);
      *
      * return $model;
@@ -385,7 +392,15 @@ class TenantService
         $contents = File::get($filePath);
         try {
             /** @var array */
+<<<<<<< HEAD
             $json = \Safe\json_decode($contents, true, 512, JSON_THROW_ON_ERROR);
+=======
+<<<<<<< HEAD
+            $json = \Safe\json_decode($contents, true, 512, JSON_THROW_ON_ERROR);
+=======
+            $json = json_decode($contents, true, 512, JSON_THROW_ON_ERROR);
+>>>>>>> 9f73f2a (.)
+>>>>>>> de24ed2 (fix: auto resolve conflict)
         } catch (\Exception $e) {
             throw new \Exception($e->getMessage().'['.$filePath.']['.__LINE__.']['.basename(__FILE__).']');
         }
