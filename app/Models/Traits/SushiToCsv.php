@@ -24,6 +24,7 @@ trait SushiToCsv
         // return CSV::fromFile(__DIR__.'/roles.csv')->toArray();
         // load the CSV document from a file path
 <<<<<<< HEAD
+<<<<<<< HEAD
         $csv = $this->getCsvPath();
         $records = $csv->getRecords();
 =======
@@ -31,14 +32,19 @@ trait SushiToCsv
         $csv = $this->getCsvPath();
         $records = $csv->getRecords();
 =======
+=======
+>>>>>>> 7e34c9c (.)
         $csv = Reader::createFromPath($this->getCsvPath(), 'r');
         // $csv->setDelimiter(';');
         $csv->setHeaderOffset(0);
         // returns all the records as
         $records = $csv->getRecords(); // an Iterator object containing arrays
         // $records = $csv->getRecordsAsObject(MyDTO::class); // an Iterator object containing MyDTO objects
+<<<<<<< HEAD
 >>>>>>> 9f73f2a (.)
 >>>>>>> de24ed2 (fix: auto resolve conflict)
+=======
+>>>>>>> 7e34c9c (.)
         $rows = iterator_to_array($records);
         $rows = array_values($rows);
 
@@ -106,12 +112,15 @@ trait SushiToCsv
                 $rows[$id] = $new;
                 $dataArray = array_values($rows);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
                 // $header=$model->getCsvHeader();
 >>>>>>> 9f73f2a (.)
 >>>>>>> de24ed2 (fix: auto resolve conflict)
+=======
+>>>>>>> 7e34c9c (.)
                 $header = array_keys($new);
                 $writer = Writer::createFromPath($model->getCsvPath(), 'w+');
                 $writer->insertOne($header);

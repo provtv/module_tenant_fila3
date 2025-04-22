@@ -28,8 +28,8 @@ trait SushiToJsons
         foreach ($files as $id => $file) {
             $json = File::json($file);
             $item = [];
-<<<<<<< HEAD
             foreach ($this->schema ?? [] as $name => $type) {
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
             foreach ($this->schema ?? [] as $name => $type) {
@@ -37,6 +37,8 @@ trait SushiToJsons
             foreach ($this->schema as $name => $type) {
 >>>>>>> 9f73f2a (.)
 >>>>>>> de24ed2 (fix: auto resolve conflict)
+=======
+>>>>>>> 7e34c9c (.)
                 $value = $json[$name] ?? null;
                 if (is_array($value)) {
                     $value = json_encode($value, JSON_PRETTY_PRINT);
@@ -81,6 +83,7 @@ trait SushiToJsons
                 $item = [];
                 if (! is_iterable($model->schema)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     throw new \Exception('Schema not found');
                 }
                 foreach ($model->schema ?? [] as $name => $type) {
@@ -95,6 +98,11 @@ trait SushiToJsons
                 foreach ($model->schema as $name => $type) {
 >>>>>>> 9f73f2a (.)
 >>>>>>> de24ed2 (fix: auto resolve conflict)
+=======
+                    throw new \Exception('Schema not iterable');
+                }
+                foreach ($model->schema as $name => $type) {
+>>>>>>> 7e34c9c (.)
                     $value = $data[$name] ?? null;
                     $item[$name] = $value;
                 }

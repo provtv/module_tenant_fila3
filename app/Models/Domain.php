@@ -10,6 +10,7 @@ use Sushi\Sushi;
 
 /**
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> de24ed2 (fix: auto resolve conflict)
@@ -25,12 +26,20 @@ use Sushi\Sushi;
  *
 >>>>>>> 9f73f2a (.)
 >>>>>>> de24ed2 (fix: auto resolve conflict)
+=======
+ * Modello per la gestione dei domini tenant.
+ *
+ * @property int|null $id
+ * @property string|null $name
+ *
+>>>>>>> 7e34c9c (.)
  * @method static \Illuminate\Database\Eloquent\Builder|Domain newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Domain newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Domain query()
  * @method static \Illuminate\Database\Eloquent\Builder|Domain whereId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Domain whereName($value)
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property-read \Modules\Broker\Models\Profile|null $creator
  * @property-read \Modules\Broker\Models\Profile|null $updater
  * @method static \Modules\Tenant\Database\Factories\DomainFactory factory($count = null, $state = [])
@@ -40,14 +49,19 @@ use Sushi\Sushi;
  * @property-read \Modules\Broker\Models\Profile|null $updater
  * @method static \Modules\Tenant\Database\Factories\DomainFactory factory($count = null, $state = [])
 =======
+=======
+>>>>>>> 7e34c9c (.)
  *
  * @property-read \Modules\Broker\Models\Profile|null $creator
  * @property-read \Modules\Broker\Models\Profile|null $updater
  *
  * @method static \Modules\Tenant\Database\Factories\DomainFactory factory($count = null, $state = [])
  *
+<<<<<<< HEAD
 >>>>>>> 9f73f2a (.)
 >>>>>>> de24ed2 (fix: auto resolve conflict)
+=======
+>>>>>>> 7e34c9c (.)
  * @mixin \Eloquent
  */
 class Domain extends BaseModel

@@ -1,7 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 [{"name":"test-command","class":"TestCommand","module":null,"path":null,"ns":"Modules\\Tenant\\Console\\Commands\\TestCommand"}]
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 7e34c9c (.)
 [
     {
         "name": "test-command",
@@ -11,7 +14,10 @@
         "ns": "Modules\\Tenant\\Console\\Commands\\TestCommand"
     }
 ]
+<<<<<<< HEAD
 =======
 [{"name":"test-command","class":"TestCommand","module":null,"path":null,"ns":"Modules\\Tenant\\Console\\Commands\\TestCommand"}]
 >>>>>>> 9f73f2a (.)
 >>>>>>> de24ed2 (fix: auto resolve conflict)
+=======
+>>>>>>> 7e34c9c (.)
