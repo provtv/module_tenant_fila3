@@ -21,14 +21,20 @@ app/
 ```
 
 ## Dipendenze
+<<<<<<< HEAD
 
+=======
+>>>>>>> c6db7044 (.)
 ### Moduli Required
 - User
 - Media
 - Xot
 
 ## Database
+<<<<<<< HEAD
 
+=======
+>>>>>>> c6db7044 (.)
 ### Factories
 Namespace: `Modules\Tenant\Database\Factories`
 
@@ -55,7 +61,10 @@ composer format        # Formatta il codice
 - Asset management per tenant
 
 ## Configurazione
+<<<<<<< HEAD
 
+=======
+>>>>>>> c6db7044 (.)
 ### Tenant
 - Configurazione in `config/tenant.php`
 - Middleware in `app/Http/Middleware`
@@ -77,7 +86,10 @@ composer format        # Formatta il codice
 8. Mantenere sicurezza tra tenant
 
 ## Troubleshooting
+<<<<<<< HEAD
 
+=======
+>>>>>>> c6db7044 (.)
 ### Problemi Comuni
 1. **Errori di Isolamento**
    - Verificare middleware tenant
@@ -95,7 +107,10 @@ composer format        # Formatta il codice
    - Gestire invalidazione cache
 
 ## Sicurezza
+<<<<<<< HEAD
 
+=======
+>>>>>>> c6db7044 (.)
 ### Isolamento
 - Separazione dati tra tenant
 - Autenticazione tenant-specific
@@ -113,6 +128,7 @@ composer format        # Formatta il codice
 - Formati data/ora per tenant
 
 ## Changelog
+<<<<<<< HEAD
 
 ### Versione HEAD
 
@@ -243,3 +259,6 @@ Le modifiche vengono tracciate nel repository GitHub.
 
 - [Risoluzione conflitti nel modulo Tenant](risoluzione_conflitti.md)
 - [Linee guida globali per la risoluzione dei conflitti git](../../../docs/risoluzione_conflitti_git.md) 
+=======
+Le modifiche vengono tracciate nel repository GitHub. 
+>>>>>>> c6db7044 (.)

@@ -44,6 +44,10 @@ class TenantService
         if (isRunningTestBench()) {
             return realpath(__DIR__.'/../Config').DIRECTORY_SEPARATOR.$filename;
         }
+<<<<<<< HEAD
+=======
+
+>>>>>>> c6db7044 (.)
         $path = base_path('config/'.self::getName().'/'.$filename);
 
         return str_replace(['/', '\\'], [\DIRECTORY_SEPARATOR, \DIRECTORY_SEPARATOR], $path);
@@ -130,10 +134,13 @@ class TenantService
             foreach ($modules as $module) {
                 $name = $module->getSnakeName();
                 if (! isset($extra_conf['connections'][$name])) {
+<<<<<<< HEAD
                     // Skip if the default connection doesn't exist in extra_conf (e.g., 'testing' connection)
                     if (! isset($extra_conf['connections'][$default])) {
                         continue;
                     }
+=======
+>>>>>>> c6db7044 (.)
                     $extra_conf['connections'][$name] = $extra_conf['connections'][$default];
                 }
             }
@@ -216,7 +223,11 @@ class TenantService
         $config_data = Arr::sortRecursive($config_data);
 
         $path = self::filePath($name.'.php');
+<<<<<<< HEAD
         $content = '<'.'?php'.\chr(13).\chr(13).' return '.var_export($config_data, true).';';
+=======
+        $content = '<?php'.\chr(13).\chr(13).' return '.var_export($config_data, true).';';
+>>>>>>> c6db7044 (.)
         $content = str_replace('\\\\', '\\', $content);
 
         File::put($path.'', $content);
@@ -337,6 +348,7 @@ class TenantService
         return $path;
     }
 
+<<<<<<< HEAD
     
 
     public static function trans(string $key): string
@@ -352,6 +364,8 @@ class TenantService
         return $res;
     }
 
+=======
+>>>>>>> c6db7044 (.)
     public static function getConfigNames(): array
     {
         $name = self::getName();

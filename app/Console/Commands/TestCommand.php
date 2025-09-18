@@ -20,7 +20,12 @@ class TestCommand extends Command
      *
      * @return void
      */
+<<<<<<< HEAD
     public function handle(): void {
+=======
+    public function handle()
+    {
+>>>>>>> c6db7044 (.)
         $name = TenantService::getName();
         $this->info('tenant name :'.$name);
     }

@@ -1,1 +1,29 @@
+<<<<<<< HEAD
 [{"name":"test-command","class":"TestCommand","module":null,"path":null,"ns":"Modules\\Tenant\\Console\\Commands\\TestCommand"}]
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> aurmich/dev
+>>>>>>> aurmich/dev
+[
+    {
+        "name": "test-command",
+        "class": "TestCommand",
+        "module": null,
+        "path": null,
+        "ns": "Modules\\Tenant\\Console\\Commands\\TestCommand"
+    }
+]
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+[{"name":"test-command","class":"TestCommand","module":null,"path":null,"ns":"Modules\\Tenant\\Console\\Commands\\TestCommand"}]
+>>>>>>> aurmich/dev
+=======
+>>>>>>> aurmich/dev
+>>>>>>> aurmich/dev
+>>>>>>> c6db7044 (.)

@@ -52,6 +52,7 @@
 - [Filesystem](packages/filesystem.md)
 - [Cache](packages/cache.md)
 - [Backup](packages/backup.md) 
+<<<<<<< HEAD
 ### Versione HEAD
 
 
@@ -78,3 +79,5 @@
 
 ---
 
+=======
+>>>>>>> c6db7044 (.)

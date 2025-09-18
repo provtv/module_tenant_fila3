@@ -318,6 +318,7 @@ tests/Unit
 
 ## Collegamenti alla documentazione generale
 
+<<<<<<< HEAD
 - [Analisi strutturale complessiva](/project_docs/phpstan/modules_structure_analysis.md)
 - [Report PHPStan](/project_docs/phpstan/)
 
@@ -343,4 +344,8 @@ tests/Unit
 * [structure.md](../../../Cms/project_docs/structure.md)
 * [structure.md](../../../Cms/project_docs/themes/structure.md)
 * [structure.md](../../../Cms/project_docs/components/structure.md)
+=======
+- [Analisi strutturale complessiva](/docs/phpstan/modules_structure_analysis.md)
+- [Report PHPStan](/docs/phpstan/)
+>>>>>>> c6db7044 (.)
 
