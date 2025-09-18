@@ -46,12 +46,16 @@ class TenantService
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> c6db7044 (.)
 =======
 
 >>>>>>> 567888eb (.)
+=======
+
+>>>>>>> 55534405 (.)
         $path = base_path('config/'.self::getName().'/'.$filename);
 
         return str_replace(['/', '\\'], [\DIRECTORY_SEPARATOR, \DIRECTORY_SEPARATOR], $path);
@@ -140,6 +144,7 @@ class TenantService
                 if (! isset($extra_conf['connections'][$name])) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     // Skip if the default connection doesn't exist in extra_conf (e.g., 'testing' connection)
                     if (! isset($extra_conf['connections'][$default])) {
                         continue;
@@ -148,6 +153,8 @@ class TenantService
 >>>>>>> c6db7044 (.)
 =======
 >>>>>>> 567888eb (.)
+=======
+>>>>>>> 55534405 (.)
                     $extra_conf['connections'][$name] = $extra_conf['connections'][$default];
                 }
             }
@@ -232,6 +239,7 @@ class TenantService
         $path = self::filePath($name.'.php');
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $content = '<'.'?php'.\chr(13).\chr(13).' return '.var_export($config_data, true).';';
 =======
         $content = '<?php'.\chr(13).\chr(13).' return '.var_export($config_data, true).';';
@@ -239,6 +247,9 @@ class TenantService
 =======
         $content = '<?php'.\chr(13).\chr(13).' return '.var_export($config_data, true).';';
 >>>>>>> 567888eb (.)
+=======
+        $content = '<?php'.\chr(13).\chr(13).' return '.var_export($config_data, true).';';
+>>>>>>> 55534405 (.)
         $content = str_replace('\\\\', '\\', $content);
 
         File::put($path.'', $content);
@@ -361,6 +372,7 @@ class TenantService
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 
     public static function trans(string $key): string
@@ -380,6 +392,8 @@ class TenantService
 >>>>>>> c6db7044 (.)
 =======
 >>>>>>> 567888eb (.)
+=======
+>>>>>>> 55534405 (.)
     public static function getConfigNames(): array
     {
         $name = self::getName();

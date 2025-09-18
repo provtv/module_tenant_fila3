@@ -22,6 +22,7 @@ class TestCommand extends Command
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function handle(): void {
 =======
     public function handle()
@@ -31,6 +32,10 @@ class TestCommand extends Command
     public function handle()
     {
 >>>>>>> 567888eb (.)
+=======
+    public function handle()
+    {
+>>>>>>> 55534405 (.)
         $name = TenantService::getName();
         $this->info('tenant name :'.$name);
     }

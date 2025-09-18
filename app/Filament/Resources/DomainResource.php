@@ -18,11 +18,14 @@ class DomainResource extends XotBaseResource
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /** @var array<string, \Filament\Forms\Components\Component> */
 =======
 >>>>>>> c6db7044 (.)
 =======
 >>>>>>> 567888eb (.)
+=======
+>>>>>>> 55534405 (.)
         return [
             'title' => TextInput::make('title')
                 ->required()

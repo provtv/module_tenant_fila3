@@ -33,6 +33,7 @@ The module_tenant package makes it easy to set up and manage multi-tenancy in yo
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Versione HEAD
 
 
@@ -51,3 +52,5 @@ The module_tenant package makes it easy to set up and manage multi-tenancy in yo
 >>>>>>> c6db7044 (.)
 =======
 >>>>>>> 567888eb (.)
+=======
+>>>>>>> 55534405 (.)

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 nds('tenant::layouts.master')
 =======
 @extends('tenant::layouts.master')
@@ -7,6 +8,9 @@ nds('tenant::layouts.master')
 =======
 @extends('tenant::layouts.master')
 >>>>>>> 567888eb (.)
+=======
+@extends('tenant::layouts.master')
+>>>>>>> 55534405 (.)
 
 @section('content')
     <h1>Hello World</h1>

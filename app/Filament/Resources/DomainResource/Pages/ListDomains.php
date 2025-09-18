@@ -14,6 +14,7 @@ class ListDomains extends XotBaseListRecords
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getTableColumns(): array
     {
         /** @var array<string, \Filament\Tables\Columns\Column> */
@@ -25,6 +26,10 @@ class ListDomains extends XotBaseListRecords
     public function getListTableColumns(): array
     {
 >>>>>>> 567888eb (.)
+=======
+    public function getListTableColumns(): array
+    {
+>>>>>>> 55534405 (.)
         return [
             'id' => Tables\Columns\TextColumn::make('id')
                 ->numeric()

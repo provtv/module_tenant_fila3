@@ -23,11 +23,14 @@ app/
 ## Dipendenze
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> c6db7044 (.)
 =======
 >>>>>>> 567888eb (.)
+=======
+>>>>>>> 55534405 (.)
 ### Moduli Required
 - User
 - Media
@@ -36,11 +39,14 @@ app/
 ## Database
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> c6db7044 (.)
 =======
 >>>>>>> 567888eb (.)
+=======
+>>>>>>> 55534405 (.)
 ### Factories
 Namespace: `Modules\Tenant\Database\Factories`
 
@@ -69,11 +75,14 @@ composer format        # Formatta il codice
 ## Configurazione
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> c6db7044 (.)
 =======
 >>>>>>> 567888eb (.)
+=======
+>>>>>>> 55534405 (.)
 ### Tenant
 - Configurazione in `config/tenant.php`
 - Middleware in `app/Http/Middleware`
@@ -97,11 +106,14 @@ composer format        # Formatta il codice
 ## Troubleshooting
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> c6db7044 (.)
 =======
 >>>>>>> 567888eb (.)
+=======
+>>>>>>> 55534405 (.)
 ### Problemi Comuni
 1. **Errori di Isolamento**
    - Verificare middleware tenant
@@ -121,11 +133,14 @@ composer format        # Formatta il codice
 ## Sicurezza
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> c6db7044 (.)
 =======
 >>>>>>> 567888eb (.)
+=======
+>>>>>>> 55534405 (.)
 ### Isolamento
 - Separazione dati tra tenant
 - Autenticazione tenant-specific
@@ -143,6 +158,7 @@ composer format        # Formatta il codice
 - Formati data/ora per tenant
 
 ## Changelog
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -281,3 +297,6 @@ Le modifiche vengono tracciate nel repository GitHub.
 =======
 Le modifiche vengono tracciate nel repository GitHub. 
 >>>>>>> 567888eb (.)
+=======
+Le modifiche vengono tracciate nel repository GitHub. 
+>>>>>>> 55534405 (.)

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 TYPE html>
 =======
 <!DOCTYPE html>
@@ -7,6 +8,9 @@ TYPE html>
 =======
 <!DOCTYPE html>
 >>>>>>> 567888eb (.)
+=======
+<!DOCTYPE html>
+>>>>>>> 55534405 (.)
 <html lang="en">
     <head>
         <meta charset="utf-8">

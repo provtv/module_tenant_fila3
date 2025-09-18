@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [{"name":"test-command","class":"TestCommand","module":null,"path":null,"ns":"Modules\\Tenant\\Console\\Commands\\TestCommand"}]
 =======
 <<<<<<< HEAD
@@ -34,3 +35,6 @@
 =======
 ]
 >>>>>>> 567888eb (.)
+=======
+[{"name":"test-command","class":"TestCommand","module":null,"path":null,"ns":"Modules\\Tenant\\Console\\Commands\\TestCommand"}]
+>>>>>>> 55534405 (.)

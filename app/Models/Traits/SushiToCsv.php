@@ -25,6 +25,7 @@ trait SushiToCsv
         // load the CSV document from a file path
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $csv = Reader::createFromPath($this->getCsvPath(), 'r');
         // $csv->setDelimiter(';');
         $csv->setHeaderOffset(0);
@@ -39,6 +40,10 @@ trait SushiToCsv
         $csv = $this->getCsvPath();
         $records = $csv->getRecords();
 >>>>>>> 567888eb (.)
+=======
+        $csv = $this->getCsvPath();
+        $records = $csv->getRecords();
+>>>>>>> 55534405 (.)
         $rows = iterator_to_array($records);
         $rows = array_values($rows);
 
@@ -107,11 +112,14 @@ trait SushiToCsv
                 $dataArray = array_values($rows);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 // $header=$model->getCsvHeader();
 =======
 >>>>>>> c6db7044 (.)
 =======
 >>>>>>> 567888eb (.)
+=======
+>>>>>>> 55534405 (.)
                 $header = array_keys($new);
                 $writer = Writer::createFromPath($model->getCsvPath(), 'w+');
                 $writer->insertOne($header);

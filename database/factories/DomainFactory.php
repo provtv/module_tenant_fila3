@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 namespace Modules\Tenant\Database\Factories;
@@ -15,18 +16,24 @@ use Modules\Tenant\Models\Domain;
 =======
 =======
 >>>>>>> 567888eb (.)
+=======
+>>>>>>> 55534405 (.)
 namespace Modules\Tenant\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c6db7044 (.)
 =======
 >>>>>>> 567888eb (.)
+=======
+>>>>>>> 55534405 (.)
 class DomainFactory extends Factory
 {
     /**
      * The name of the factory's corresponding model.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
      *
@@ -85,6 +92,8 @@ class DomainFactory extends Factory
 =======
 =======
 >>>>>>> 567888eb (.)
+=======
+>>>>>>> 55534405 (.)
      */
     protected $model = \Modules\Tenant\Models\Domain::class;
 
@@ -97,6 +106,9 @@ class DomainFactory extends Factory
     }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c6db7044 (.)
 =======
 >>>>>>> 567888eb (.)
+=======
+>>>>>>> 55534405 (.)

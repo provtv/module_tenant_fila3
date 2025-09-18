@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 =======
 use Illuminate\Database\Eloquent\Model;
@@ -15,10 +16,14 @@ use Illuminate\Database\Eloquent\Model;
 =======
 use Illuminate\Database\Eloquent\Model;
 >>>>>>> 567888eb (.)
+=======
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> 55534405 (.)
 use Modules\Xot\Traits\Updater;
 
 /**
  * Class BaseModel.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
@@ -33,6 +38,10 @@ abstract class BaseModel extends Model
  */
 abstract class BaseModel extends Model
 >>>>>>> 567888eb (.)
+=======
+ */
+abstract class BaseModel extends Model
+>>>>>>> 55534405 (.)
 {
     use HasFactory;
     use Updater;
@@ -58,6 +67,7 @@ abstract class BaseModel extends Model
     /** @var string */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected $connection = 'tenant';
 =======
     protected $connection = 'setting';
@@ -65,6 +75,9 @@ abstract class BaseModel extends Model
 =======
     protected $connection = 'setting';
 >>>>>>> 567888eb (.)
+=======
+    protected $connection = 'setting';
+>>>>>>> 55534405 (.)
 
     /** @var list<string> */
     protected $appends = [];
@@ -93,6 +106,7 @@ abstract class BaseModel extends Model
     /** @return array<string, string> */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected function casts(): array
 =======
     public function casts(): array
@@ -100,6 +114,9 @@ abstract class BaseModel extends Model
 =======
     public function casts(): array
 >>>>>>> 567888eb (.)
+=======
+    public function casts(): array
+>>>>>>> 55534405 (.)
     {
         return [
             'id' => 'string',

@@ -18,6 +18,7 @@ class TenantDatabaseSeeder extends Seeder
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // Seed test domains
         $this->call([
             DomainsSeeder::class,
@@ -29,5 +30,8 @@ class TenantDatabaseSeeder extends Seeder
 =======
         // $this->call("OthersTableSeeder");
 >>>>>>> 567888eb (.)
+=======
+        // $this->call("OthersTableSeeder");
+>>>>>>> 55534405 (.)
     }
 }

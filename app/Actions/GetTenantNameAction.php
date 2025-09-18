@@ -28,6 +28,7 @@ class GetTenantNameAction
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         
         $default = Str::after($default, '//');
         
@@ -37,6 +38,8 @@ class GetTenantNameAction
 =======
 =======
 >>>>>>> 567888eb (.)
+=======
+>>>>>>> 55534405 (.)
 
         $default = Str::after($default, '//');
 
@@ -44,9 +47,12 @@ class GetTenantNameAction
         $server_name = Str::of($server_name)->replace('www.', '')->toString();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c6db7044 (.)
 =======
 >>>>>>> 567888eb (.)
+=======
+>>>>>>> 55534405 (.)
         /** @var Collection<int, string> $parts */
         $parts = collect(explode('.', $server_name))
             ->map(static fn (string $item): string => Str::slug($item))
@@ -72,6 +78,7 @@ class GetTenantNameAction
         // Fallback al default
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $part=explode('.', $default);
         $inverted=array_reverse($part);
         $default_path=implode('/', $inverted);
@@ -81,6 +88,9 @@ class GetTenantNameAction
 =======
         $default_path = str_replace('.', '/', $default);
 >>>>>>> 567888eb (.)
+=======
+        $default_path = str_replace('.', '/', $default);
+>>>>>>> 55534405 (.)
         if ($default_path !== '' && file_exists(base_path('config/'.$default_path))) {
             return $default_path;
         }

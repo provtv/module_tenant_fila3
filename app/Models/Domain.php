@@ -11,6 +11,7 @@ use Sushi\Sushi;
 /**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
  * 
  *
@@ -19,6 +20,10 @@ use Sushi\Sushi;
  * 
  *
 >>>>>>> 567888eb (.)
+=======
+ * 
+ *
+>>>>>>> 55534405 (.)
  * @property int|null $id
  * @property string|null $name
  * @method static \Illuminate\Database\Eloquent\Builder|Domain newModelQuery()
@@ -26,6 +31,7 @@ use Sushi\Sushi;
  * @method static \Illuminate\Database\Eloquent\Builder|Domain query()
  * @method static \Illuminate\Database\Eloquent\Builder|Domain whereId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Domain whereName($value)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
@@ -42,6 +48,11 @@ use Sushi\Sushi;
  * @property-read \Modules\Broker\Models\Profile|null $updater
  * @method static \Modules\Tenant\Database\Factories\DomainFactory factory($count = null, $state = [])
 >>>>>>> 567888eb (.)
+=======
+ * @property-read \Modules\Broker\Models\Profile|null $creator
+ * @property-read \Modules\Broker\Models\Profile|null $updater
+ * @method static \Modules\Tenant\Database\Factories\DomainFactory factory($count = null, $state = [])
+>>>>>>> 55534405 (.)
  * @mixin \Eloquent
  */
 class Domain extends BaseModel
@@ -55,6 +66,7 @@ class Domain extends BaseModel
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getRows(): void {
 =======
     public function getRows()
@@ -64,6 +76,10 @@ class Domain extends BaseModel
     public function getRows()
     {
 >>>>>>> 567888eb (.)
+=======
+    public function getRows()
+    {
+>>>>>>> 55534405 (.)
         $products = app(GetDomainsArrayAction::class)->execute();
 
         return $products;

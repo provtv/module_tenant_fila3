@@ -79,6 +79,7 @@ return [
                 'name' => 'Nome',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'last_name' => 'Cognome',
 =======
                 'surname' => 'Cognome',
@@ -86,6 +87,9 @@ return [
 =======
                 'surname' => 'Cognome',
 >>>>>>> 567888eb (.)
+=======
+                'surname' => 'Cognome',
+>>>>>>> 55534405 (.)
                 'tax_code' => 'Codice Fiscale',
                 'email' => 'Email',
                 'phone' => 'Telefono',
