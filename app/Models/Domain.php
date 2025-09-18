@@ -31,8 +31,7 @@ class Domain extends BaseModel
      *
      * @return array
      */
-    public function getRows()
-    {
+    public function getRows(): void {
         $products = app(GetDomainsArrayAction::class)->execute();
 
         return $products;

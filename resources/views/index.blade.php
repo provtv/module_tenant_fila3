@@ -1,4 +1,4 @@
-@extends('tenant::layouts.master')
+nds('tenant::layouts.master')
 
 @section('content')
     <h1>Hello World</h1>
