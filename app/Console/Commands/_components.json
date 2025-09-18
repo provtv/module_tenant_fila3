@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 [{"name":"test-command","class":"TestCommand","module":null,"path":null,"ns":"Modules\\Tenant\\Console\\Commands\\TestCommand"}]
 =======
 <<<<<<< HEAD
@@ -8,6 +9,8 @@
 =======
 >>>>>>> aurmich/dev
 >>>>>>> aurmich/dev
+=======
+>>>>>>> 567888eb (.)
 [
     {
         "name": "test-command",
@@ -16,6 +19,7 @@
         "path": null,
         "ns": "Modules\\Tenant\\Console\\Commands\\TestCommand"
     }
+<<<<<<< HEAD
 ]
 <<<<<<< HEAD
 =======
@@ -27,3 +31,6 @@
 >>>>>>> aurmich/dev
 >>>>>>> aurmich/dev
 >>>>>>> c6db7044 (.)
+=======
+]
+>>>>>>> 567888eb (.)

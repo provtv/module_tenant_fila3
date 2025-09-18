@@ -78,10 +78,14 @@ return [
             'fields' => [
                 'name' => 'Nome',
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'last_name' => 'Cognome',
 =======
                 'surname' => 'Cognome',
 >>>>>>> c6db7044 (.)
+=======
+                'surname' => 'Cognome',
+>>>>>>> 567888eb (.)
                 'tax_code' => 'Codice Fiscale',
                 'email' => 'Email',
                 'phone' => 'Telefono',

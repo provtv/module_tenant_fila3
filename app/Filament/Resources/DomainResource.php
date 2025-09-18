@@ -17,9 +17,12 @@ class DomainResource extends XotBaseResource
     public static function getFormSchema(): array
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         /** @var array<string, \Filament\Forms\Components\Component> */
 =======
 >>>>>>> c6db7044 (.)
+=======
+>>>>>>> 567888eb (.)
         return [
             'title' => TextInput::make('title')
                 ->required()

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # SushiToJson Trait - Implementazione Completa
 
 > **Boy Scout Rule Applied**: Documentazione aggiornata dopo studio approfondito e implementazione completa
@@ -55,6 +56,8 @@ Il metodo di boot implementa un pattern observer pulito per gli eventi del model
 
 **Razionale**: Implementazione sicura che evita operazioni incomplete e fornisce feedback chiaro agli sviluppatori.
 =======
+=======
+>>>>>>> 567888eb (.)
 # SushiToJsons Trait
 
 Il trait SushiToJsons estende le funzionalità di Sushi per gestire i dati dei modelli utilizzando file JSON come sorgente dati.
@@ -90,7 +93,10 @@ Determina il percorso del file JSON per un record specifico basato sulla tabella
 
 ### Deleting
 - Rimuove il file JSON associato al record
+<<<<<<< HEAD
 >>>>>>> c6db7044 (.)
+=======
+>>>>>>> 567888eb (.)
 
 ## Schema dei dati
 
@@ -103,6 +109,7 @@ protected $schema = [
 ];
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 ## Best Practices (Boy Scout Rule)
 
@@ -120,6 +127,8 @@ protected $schema = [
 - **`thecodingmachine/safe`**: Operazioni sicure su JSON e file I/O
 - **`illuminate/support`**: Per File facade e logging
 =======
+=======
+>>>>>>> 567888eb (.)
 ## Best Practices
 
 - Definire sempre uno schema completo per i dati
@@ -132,11 +141,15 @@ protected $schema = [
 - `sushi`: Per il comportamento base del modello
 - `webmozart/assert`: Per la validazione dei parametri
 - `safe`: Per operazioni sicure su JSON
+<<<<<<< HEAD
 >>>>>>> c6db7044 (.)
+=======
+>>>>>>> 567888eb (.)
 
 ## Esempio di utilizzo
 
 ```php
+<<<<<<< HEAD
 <<<<<<< HEAD
 <?php
 
@@ -203,6 +216,8 @@ Il trait ha una suite di test completa e modernizzata con 52 test che coprono il
 * [sushi-to-jsons.md](../../../Tenant/docs/models/traits/sushi-to-jsons.md)
 
 =======
+=======
+>>>>>>> 567888eb (.)
 use Modules\Tenant\Models\Traits\SushiToJsons;
 
 class MyModel extends Model
@@ -217,5 +232,9 @@ class MyModel extends Model
         'active' => 'boolean'
     ];
 }
+<<<<<<< HEAD
 ``` 
 >>>>>>> c6db7044 (.)
+=======
+``` 
+>>>>>>> 567888eb (.)

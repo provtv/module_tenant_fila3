@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 
@@ -86,6 +87,8 @@ return array (
   ),
 );
 =======
+=======
+>>>>>>> 567888eb (.)
 return [
     'navigation' => [
         'plural' => 'Domini',
@@ -143,4 +146,7 @@ return [
         ],
     ],
 ];
+<<<<<<< HEAD
 >>>>>>> c6db7044 (.)
+=======
+>>>>>>> 567888eb (.)

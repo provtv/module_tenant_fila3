@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # ==============================================
 # LARAXOT MODULE TENANT - .GITIGNORE
 # ==============================================
@@ -142,6 +143,8 @@ test_tenants.sql
 # END OF TENANT .GITIGNORE
 # ==============================================
 =======
+=======
+>>>>>>> 567888eb (.)
 /vendor/
 vendor/
 node_modules/
@@ -199,4 +202,7 @@ cache/
 *.exe
 *:Zone.Identifier
 *:Zone.Identifier
+<<<<<<< HEAD
 >>>>>>> c6db7044 (.)
+=======
+>>>>>>> 567888eb (.)

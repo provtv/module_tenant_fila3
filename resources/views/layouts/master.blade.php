@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 TYPE html>
 =======
 <!DOCTYPE html>
 >>>>>>> c6db7044 (.)
+=======
+<!DOCTYPE html>
+>>>>>>> 567888eb (.)
 <html lang="en">
     <head>
         <meta charset="utf-8">

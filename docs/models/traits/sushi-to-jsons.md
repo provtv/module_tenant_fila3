@@ -62,6 +62,7 @@ class MyModel extends Model
 - Aggiunta validazione dello schema
 - Migliorata la gestione degli errori
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Ottimizzata la gestione della memoria 
 ## Collegamenti tra versioni di sushi-to-jsons.md
 * [sushi-to-jsons.md](../../../Tenant/docs/traits/sushi-to-jsons.md)
@@ -70,3 +71,6 @@ class MyModel extends Model
 =======
 - Ottimizzata la gestione della memoria 
 >>>>>>> c6db7044 (.)
+=======
+- Ottimizzata la gestione della memoria 
+>>>>>>> 567888eb (.)

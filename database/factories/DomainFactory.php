@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 namespace Modules\Tenant\Database\Factories;
@@ -12,15 +13,21 @@ use Modules\Tenant\Models\Domain;
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\Modules\Tenant\Models\Domain>
  */
 =======
+=======
+>>>>>>> 567888eb (.)
 namespace Modules\Tenant\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 
+<<<<<<< HEAD
 >>>>>>> c6db7044 (.)
+=======
+>>>>>>> 567888eb (.)
 class DomainFactory extends Factory
 {
     /**
      * The name of the factory's corresponding model.
+<<<<<<< HEAD
 <<<<<<< HEAD
      *
      * @var class-string<\Modules\Tenant\Models\Domain>
@@ -76,6 +83,8 @@ class DomainFactory extends Factory
 }
 
 =======
+=======
+>>>>>>> 567888eb (.)
      */
     protected $model = \Modules\Tenant\Models\Domain::class;
 
@@ -87,4 +96,7 @@ class DomainFactory extends Factory
         return [];
     }
 }
+<<<<<<< HEAD
 >>>>>>> c6db7044 (.)
+=======
+>>>>>>> 567888eb (.)

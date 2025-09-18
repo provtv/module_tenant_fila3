@@ -53,6 +53,7 @@
 - [Cache](packages/cache.md)
 - [Backup](packages/backup.md) 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Versione HEAD
 
 
@@ -81,3 +82,5 @@
 
 =======
 >>>>>>> c6db7044 (.)
+=======
+>>>>>>> 567888eb (.)

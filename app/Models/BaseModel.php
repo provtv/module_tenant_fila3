@@ -7,14 +7,19 @@ namespace Modules\Tenant\Models;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 =======
 use Illuminate\Database\Eloquent\Model;
 >>>>>>> c6db7044 (.)
+=======
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> 567888eb (.)
 use Modules\Xot\Traits\Updater;
 
 /**
  * Class BaseModel.
+<<<<<<< HEAD
 <<<<<<< HEAD
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
@@ -24,6 +29,10 @@ abstract class BaseModel extends EloquentModel
  */
 abstract class BaseModel extends Model
 >>>>>>> c6db7044 (.)
+=======
+ */
+abstract class BaseModel extends Model
+>>>>>>> 567888eb (.)
 {
     use HasFactory;
     use Updater;
@@ -48,10 +57,14 @@ abstract class BaseModel extends Model
 
     /** @var string */
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected $connection = 'tenant';
 =======
     protected $connection = 'setting';
 >>>>>>> c6db7044 (.)
+=======
+    protected $connection = 'setting';
+>>>>>>> 567888eb (.)
 
     /** @var list<string> */
     protected $appends = [];
@@ -79,10 +92,14 @@ abstract class BaseModel extends Model
 
     /** @return array<string, string> */
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected function casts(): array
 =======
     public function casts(): array
 >>>>>>> c6db7044 (.)
+=======
+    public function casts(): array
+>>>>>>> 567888eb (.)
     {
         return [
             'id' => 'string',
